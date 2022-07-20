@@ -17,9 +17,9 @@ workspace "OpenGLApp"
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 group "Dependencies"
-	include "OpenGLApp/vendor/GLFW"
-	include "OpenGLApp/vendor/Glad"
-	include "OpenGLApp/vendor/ImGui"
+	include "vendor/GLFW"
+	include "vendor/Glad"
+	include "vendor/ImGui"
 group ""
 
 include "OpenGLApp"

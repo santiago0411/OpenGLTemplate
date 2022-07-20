@@ -13,10 +13,10 @@ project "OpenGLApp"
 
 	includedirs
 	{
-		"vendor/GLFW/include",
-		"vendor/Glad/include",
-		"vendor/ImGui",
-		"vendor/glm",
+		"%{wks.location}/vendor/GLFW/include",
+		"%{wks.location}/vendor/Glad/include",
+		"%{wks.location}/vendor/ImGui",
+		"%{wks.location}/vendor/glm",
 
 		"src/**.h",
 		"src/**.cpp"
